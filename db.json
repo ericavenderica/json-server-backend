@@ -25,7 +25,6 @@
       "role": "user"
     }
   ],
-  
   "categories": [
     {
       "id": 1,
@@ -234,54 +233,62 @@
       "createdAt": "2025-01-11"
     }
   ],
-
-  
   "carts": [
     {
       "id": 1,
       "userId": 1,
       "items": [
-        { "productId": 1, 
-          "quantity": 1 
+        {
+          "productId": 1,
+          "quantity": 1
         },
-        { "productId": 3, 
-          "quantity": 2 
+        {
+          "productId": 3,
+          "quantity": 2
         },
-        { "productId": 7, 
-        "quantity": 1 }
+        {
+          "productId": 7,
+          "quantity": 1
+        }
       ]
     },
     {
       "id": 2,
       "userId": 2,
       "items": [
-        { "productId": 10, 
-          "quantity": 3 
+        {
+          "productId": 10,
+          "quantity": 3
         }
       ]
     },
     {
       "id": 3,
       "userId": 3,
-      "items": [] 
+      "items": []
     }
   ],
-
   "wishlists": [
     {
       "id": 1,
       "userId": 2,
-      "productIds": [1, 2, 8]
+      "productIds": [
+        1,
+        2,
+        8
+      ]
     },
     {
       "id": 2,
       "userId": 1,
-      "productIds": [12]
+      "productIds": [
+        12
+      ]
     },
     {
       "id": 3,
       "userId": 3,
-      "productIds": [] 
+      "productIds": []
     }
   ]
 }
