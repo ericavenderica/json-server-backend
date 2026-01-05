@@ -35,6 +35,18 @@
       "username": "admin",
       "password": "admin123",
       "id": 5
+    },
+    {
+      "email": "guia.sevilla.gs@gmail.com",
+      "username": "Aia",
+      "password": "1234567",
+      "id": 6
+    },
+    {
+      "email": "jane@example.com",
+      "username": "Jane",
+      "password": "password",
+      "id": 7
     }
   ],
   "categories": [
@@ -245,18 +257,93 @@
       "createdAt": "2025-01-11"
     }
   ],
-  "cart": [
+  "cart": [],
+  "wishlist": [
     {
       "name": "Silky Pressed Powder",
       "price": 16.99,
       "id": 1
     }
   ],
-  "wishlist": [
+  "orders": [
     {
-      "name": "Silky Pressed Powder",
-      "price": 16.99,
+      "username": "Aia",
+      "userId": 6,
+      "OrderId": 1,
+      "products": [
+        {
+          "name": "Velvet Matte Foundation",
+          "price": 24.99,
+          "id": 1
+        },
+        {
+          "name": "Hydra Glow Concealer",
+          "price": 14.99,
+          "id": 2
+        },
+        {
+          "name": "Rose Flush Blush",
+          "price": 12.99,
+          "id": 3
+        },
+        {
+          "name": "Sunlit Bronzer",
+          "price": 18.99,
+          "id": 4
+        },
+        {
+          "name": "Luminous Highlighter",
+          "price": 15.99,
+          "id": 5
+        }
+      ],
       "id": 1
+    },
+    {
+      "username": "Aia",
+      "userId": 6,
+      "OrderId": 2,
+      "products": [
+        {
+          "name": "Velvet Matte Foundation",
+          "price": 24.99,
+          "id": 1
+        },
+        {
+          "name": "Hydra Glow Concealer",
+          "price": 14.99,
+          "id": 2
+        },
+        {
+          "name": "Rose Flush Blush",
+          "price": 12.99,
+          "id": 3
+        },
+        {
+          "name": "Silky Pressed Powder",
+          "price": 16.99,
+          "id": 4
+        }
+      ],
+      "id": 2
+    },
+    {
+      "username": "Aia",
+      "userId": 6,
+      "OrderId": 3,
+      "products": [
+        {
+          "name": "Velvet Matte Foundation",
+          "price": 24.99,
+          "id": 1
+        },
+        {
+          "name": "Hydra Glow Concealer",
+          "price": 14.99,
+          "id": 2
+        }
+      ],
+      "id": 3
     }
   ]
 }
