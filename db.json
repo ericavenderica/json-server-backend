@@ -29,6 +29,12 @@
       "username": "erica",
       "password": "erica",
       "id": 4
+    },
+    {
+      "email": "admin@email.com",
+      "username": "admin",
+      "password": "admin123",
+      "id": 5
     }
   ],
   "categories": [
@@ -239,6 +245,18 @@
       "createdAt": "2025-01-11"
     }
   ],
-  "cart": [],
-  "wishlist": []
+  "cart": [
+    {
+      "name": "Silky Pressed Powder",
+      "price": 16.99,
+      "id": 1
+    }
+  ],
+  "wishlist": [
+    {
+      "name": "Silky Pressed Powder",
+      "price": 16.99,
+      "id": 1
+    }
+  ]
 }
